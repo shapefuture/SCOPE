@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Kinescope juice",
+    "version": "0.0.1",
+    "description": "Выгрузка видео из видеосервиса Kinescope",
+      "permissions": [
+          "activeTab",
+          "scripting",
+          "downloads"
+        ],
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "128": "128.png"
+        }
+      },
+      "background": {
+       "service_worker": "popup.js"
+    },
+      "icons": {
+          "128": "128.png"
+      }
+  }

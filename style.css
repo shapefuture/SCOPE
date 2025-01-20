@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    width: 150px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 100%; 
+    height: auto;
+}
+
+#_finder_button{
+    width: 92%;
+    height: 60px;
+    background-color: white;
+    border: 5px solid black;
+    font-size: 18px;
+    color: #ff7316;
+    font-family: "Arial Black";
+    font-weight: bold;
+    border-radius:10px;
+}
+
+#mkcl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#_finder_button:hover{
+    background-color: #ff7316;
+    color: white;
+    cursor: pointer;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition {
+    transition: 0.3s;
+  }
+
+.buttoncls{
+    margin-bottom: 10px;
+    width: 92%;
+    height: 40px;
+    background-color: #ff7316;
+    border: 5px solid black;
+    font-size: 18px;
+    font-family: "Arial Black";
+    font-weight: bold;
+    border-radius:10px;
+}
+
+.buttoncls:hover{
+    color: white;
+    cursor: pointer;
+}
